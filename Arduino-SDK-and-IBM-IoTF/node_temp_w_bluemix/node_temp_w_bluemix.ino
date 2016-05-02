@@ -22,7 +22,7 @@
 
 /* Values will want (temp till we can push from IoTF) */
 boolean HEATER_ON = true;
-float DESIRED_TEMP = 21.6;
+float DESIRED_TEMP = 21.65;
 int ON_POSITION = 153;
 int OFF_POSITION = 122;
 int SERVO_PIN = 5; // D1 (NodeMCU) / GPIO 5 (ESP8266)
@@ -120,7 +120,7 @@ void loop() {
   }
 
   /* Delay before repeating the process */
-  delay(10000); // 1000 == one second
+  delay(60000); // 1000 == one second
 }
 
 boolean toggleHeater(float tempDesired, float tempActual, boolean heat) {
