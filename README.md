@@ -1,6 +1,6 @@
-![alt tag](https://1.bp.blogspot.com/-BSeE81k9iSw/Vt95VgripXI/AAAAAAAAIVY/exHFRAktXXc/s400/DSC_8144.JPG)
+![system in action](https://github.com/ckuzma/blog/blob/master/posts/2016/media/heater-control-v1.jpeg?raw=true)
 # apartment-internet-heater
-An IoT project aimed at controlling an apartment's built-in heating / cooling unit. For more information, visit the original blog post here: http://blog.christopherkuzma.com/2016/03/project-apartment-heating-air.html
+An IoT project aimed at controlling an apartment's built-in heating / cooling unit. For more information, visit the original blog post here: [Project: Automatic Apartment Heating/Cooling Control](https://github.com/ckuzma/blog/blob/master/posts/2016/2016-03-08-project-apartment-heating-air.md)
 
 # Basic instructions before loading onto Bluemix / devices:
 `BeagleBone_Local_App/automatic_temp_controller.py`:
